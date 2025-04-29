@@ -1,0 +1,21 @@
+<div class="login-wrapper">
+    <div class="image-side">
+      <img src="recruitment-icon.pgn" alt="Recruitment Illustration" />
+    </div>
+
+<div class="login-container">
+    <h1>Welcome Back</h1>
+    <form>
+      <input type="email" placeholder="Email" name="email" />
+      <input type="password" placeholder="Password" name="password" />
+      <button type="button" [routerLink]="['/dashboard']">Login</button>
+  
+      <div class="form-links">
+        <p class="signup-text">New to recruiter site? 
+          <a [routerLink]="['/register']">Create Account</a>
+        </p>
+        <a class="forgot-link" [routerLink]="['/forgot-password']">Forgot Password?</a>
+      </div>
+    </form>
+  </div>
+  
