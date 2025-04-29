@@ -1,0 +1,48 @@
+.dashboard-wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f6f9;
+  }
+  
+  .toggle-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1e2a38;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 15px 0;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 40px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .full-width {
+    margin-left: 0;
+  }
+  
